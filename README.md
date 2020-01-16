@@ -23,7 +23,14 @@
 
     - axios : REST API 쉽게 요청 가능 요청 -> 프로미스 반환  
     - API 연동실습용 : https://jsonplaceholder.typicode.com/users
-  
+    
+### useState 와 useEffect 로 데이터 로딩하기
+    - 요청상태관리 : useState
+    - 컴포넌터 렌더링시점에 요청 : useEffect
+    - 요청에대한 상태관리 3가지 
+        1. 요청의결과
+        2. 로딩상태
+        3. 에러
 
 
  
