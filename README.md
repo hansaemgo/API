@@ -37,16 +37,13 @@
     -  LOADING, SUCCESS, ERROR 액션3가지에 따라 다른 처리
     -  로직을 분리하여 쉽게 재사용 가능 
  
+### 렌더링이후 특정버튼을 눌렀을때 API요청
+    - 세번째 파라미터 skip 사용
+    - 기본값을 false로 지정하고 만약 true라면 useEffect에서 아무런 작업 X
 
 
 
-
-
-
-
-
-
-
-*** git url 변경
-    git remote -v : URL 주소 찾기
-    git remote set-url origin http://나머지 주소 
+*** 특정코드만 eslint 무시 - //eslint-disable-next-line ***
+*** git url 변경 ***
+    - git remote -v : URL 주소 찾기
+    - git remote set-url origin http://나머지 주소 
