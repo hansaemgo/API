@@ -32,7 +32,10 @@
         2. 로딩상태
         3. 에러
 
-
+### useReducer로 요청상태 관리
+    -  useState 대신 useReducer사용해보기 
+    -  LOADING, SUCCESS, ERROR 액션3가지에 따라 다른 처리
+    -  로직을 분리하여 쉽게 재사용 가능 
  
 
 
