@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import axios from 'axios';
 import useAsync from './useAsync';
 import User from './User';
+=======
+import React from 'react';
+import axios from 'axios';
+import useAsync from './useAsync';
+>>>>>>> cdafd753164d26c90713dd9db7eb6777323eb06c
 
 // useAsync 에서는 Promise 의 결과를 바로 data 에 담기 때문에,
 // 요청을 한 이후 response 에서 data 추출하여 반환하는 함수를 따로 만들었습니다.
@@ -13,7 +19,10 @@ async function getUsers() {
 }
 
 function Users() {
+<<<<<<< HEAD
   const [userId, setUserId] = useState(null);
+=======
+>>>>>>> cdafd753164d26c90713dd9db7eb6777323eb06c
   const [state, refetch] = useAsync(getUsers, [], true);
 
   const { loading, data: users, error } = state; // state.data 를 users 키워드로 조회
@@ -35,7 +44,10 @@ function Users() {
         ))}
       </ul>
       <button onClick={refetch}>다시 불러오기</button>
+<<<<<<< HEAD
       {userId && <User id={userId} />}
+=======
+>>>>>>> cdafd753164d26c90713dd9db7eb6777323eb06c
     </>
   );
 }
